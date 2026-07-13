@@ -62,22 +62,11 @@
 
 #### Termux (Android)
 ```bash
-# Update packages
 pkg update && pkg upgrade
-
-# Install required packages
 pkg install python git
-
-# Clone repository
-git clone https://github.com/Cekon65-max/noes-searching.git
-
-# Navigate to directory
+git clone https://github.com/Cekon65-max/neos-searching.git
 cd noes-searching
-
-# Or install manually
 pip install requests colorama urllib3
-
-# Run the tool
 python main.py
 
 ```
