@@ -74,9 +74,6 @@ git clone https://github.com/Cekon65-max/noes-searching.git
 # Navigate to directory
 cd noes-searching
 
-# Install dependencies
-pip install -r requirements.txt
-
 # Or install manually
 pip install requests colorama urllib3
 
